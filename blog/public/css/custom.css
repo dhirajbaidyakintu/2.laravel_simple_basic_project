@@ -1,0 +1,28 @@
+body{
+    font-family: 'Open Sans';
+}
+
+.brand-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.parallax{
+    background-image: url("../images/technology.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.topBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.banner-m-Top{
+    margin-top: 165px;
+}
